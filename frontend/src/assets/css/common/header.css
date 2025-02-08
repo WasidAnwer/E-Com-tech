@@ -1,19 +1,71 @@
-.main-header{
-    background:white;
+main {
+    width: calc(100% - 265px);
+    margin-left: 265px;
+    background-color: #eaeaea;
+}
+
+header {
     width: 100%;
-    justify-content: space-between;
+    z-index: 1;
+    background: #fff;
+    height: 68px;
     display: flex;
-    padding: 5px;
-}
-
-.main-header .icon-list ul{
-    display:flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
-.main-header .icon-list ul li{
-   font-size: 14px;
-   color: black;
-   margin-left: 10px;
+header .welcome {
+    margin-left: 30px;
+    font-size: 26px;
+    font-weight: bolder;
+    color:rgb(228, 8, 173);
 }
+
+header .icon-list {
+    display: flex;
+    margin-left: 600px;
+
+}
+
+header .icon-list ul {
+    display: flex;
+    align-items: center;
+    margin-right: 10;
+}
+
+header .icon-list ul li {
+
+    margin-left: 10px;
+
+}
+
+header .icon-list ul li i {
+    font-size: 20px;
+    color:rgb(228, 8, 173);
+}
+header .icon-list ul li i:hover{
+    color:rgb(240, 160, 13)
+}
+
+header .pro-details {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+header .dropdown-img {
+    position: relative;
+}
+
+header .pro-details strong {
+    font-weight: bolder;
+
+}
+
+/* header .pro-details .drop-down {
+    box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+    border: 0;
+    border-radius: 5px;
+    min-width: 11.5rem;
+    padding: .5rem 0;
+} */

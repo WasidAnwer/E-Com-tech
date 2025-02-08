@@ -4,27 +4,30 @@ import "../assets/css/common/header.css";
 
 function Header() {
     return (
-        <header>
-            <div className="main-header">
-                <div className="text">
-                    <h1> Welcome</h1>
-                </div>
+        <main>
+            <header>
+                <strong className="welcome">Welcom to admin</strong>
                 <div className="icon-list">
                     <ul>
-                        <li>darkmode</li>
-                        <li>notification</li>
-                        <li>setting</li>
-                        <li>activity</li>
-                        <li>profile</li>
+                        <li><i class="fa-solid fa-bell"></i></li>
+                        <li><i class="fa-solid fa-cart-flatbed-suitcase"></i></li>
+                        <li><i class="fa-solid fa-location-dot"></i></li>
+                    </ul>
+
+                </div>
+
+                <div className="pro-details">
+                    <div className="dropdown-img">
+
+                    </div>
+                    <strong>wasid anwer</strong>
+                    <ul className="drop-down">
+                        <li></li>
+                        <li></li>
                     </ul>
                 </div>
-                <form>
-                    <div className="search-header">
-                        <input type="search" id="mySearch" name="q" />
-                    </div>
-                </form>
-            </div>
-        </header>
+            </header>
+        </main>
     )
 }
 
