@@ -1,0 +1,43 @@
+.markup-nav {
+    width: 265px;
+    height: 100vh;
+    background-color: #262d34;
+    position: fixed;
+    /* text-align: center; */
+    padding-bottom: 20px;
+    top:0;
+}
+
+.markup-nav .markup-logo {
+    padding: 20px 10px 15px;
+    background-color: #262d34;
+}
+.markup-nav .markup-logo img {
+    width: 100%;
+}
+
+.markup-nav>ul {
+    padding: 0;
+    overflow: auto;
+    height: calc(100% - 175px);
+}
+.markup-nav>ul>li{
+    border-bottom: 1px solid #f1f1f142;
+    color: #fff;
+    text-align: start;
+    cursor: pointer;
+    padding:20px;
+}
+
+.markup-nav>ul>li>i{
+    margin-right: 10px;
+}
+
+.markup-nav>ul>li:hover{
+    background-color: rgb(121, 50, 168);
+    
+   
+}
+.markup-nav>ul>li:hover i{
+    color:rgb(228, 8, 173);
+}
